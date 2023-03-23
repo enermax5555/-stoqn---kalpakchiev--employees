@@ -12,7 +12,7 @@
 - Days worked together
 
 ### In addition:
-- Should be accepted as NULL as the current Date.
+- Should be accepted date NULL as the current Date.
 - The program should accept every date format.
   
 # How to set up and run

@@ -36,7 +36,6 @@ function readCSVFile() {
                     }
                 }
             }
-
             const table = document.getElementById('tableCsv');
             const headerRow = document.createElement("tr");
             ["Employee ID #1", "Employee ID #2", "Project ID", "Days worked"].forEach(
@@ -67,7 +66,6 @@ function readCSVFile() {
                 daysWorkedCell.textContent = daysWorked;
                 row.appendChild(daysWorkedCell);
 
-
                 table.appendChild(row);
             });
             document.body.appendChild(table);
@@ -92,8 +90,6 @@ function readCSVFile() {
         console.log('import file')
     }
 }
-
-
 function formatDate(date) {
 
     var d = new Date(date),
