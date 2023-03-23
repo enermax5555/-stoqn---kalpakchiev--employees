@@ -77,7 +77,7 @@ function readCSVFile() {
                 let p = document.createElement('p');
                 let p2 = document.createElement('p');
                 p.innerHTML = 'If u want to upload new file click the button bellow.'
-                p2.innerHTML = 'This list show the employees, who worked together on same projects and how much days they worked together.'
+                p2.innerHTML = 'This list show the employees, who worked together on same projects and how many days they worked together.'
                 let reloadButton = document.createElement("button");
                 reloadButton.textContent = "Reload";
                 reloadButton.addEventListener("click", function () {
