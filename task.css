@@ -1,0 +1,15 @@
+.inputClass{
+    text-align:center;
+    margin-top:5rem;
+}
+table{
+    border: 0.05rem solid black;
+    margin:auto;
+    margin-top: 1rem;
+}
+th, td{
+    border: 0.05rem solid black;
+}
+#reloadDiv{
+    text-align:center
+}
