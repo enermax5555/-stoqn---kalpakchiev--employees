@@ -10,7 +10,7 @@ function readCSVFile() {
             let rowData = csvdata.split('\n');
             const groupArray = [];
             for (let row = 1; row < rowData.length; row++) {
-                rowColData = rowData[row].split(',');
+                let rowColData = rowData[row].split(',');
                 groupArray.push(rowColData);
             }
             const output = [];
